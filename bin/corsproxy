@@ -116,5 +116,5 @@ if (process.env.DEBUG) {
 server.start(function (error) {
   if (error) server.log('error', error)
 
-  server.log('info', 'CORS Proxy running at: ' + server.info.uri)
+  server.log('info', 'CORS Proxy running at: ' + proxy.info.uri)
 })
